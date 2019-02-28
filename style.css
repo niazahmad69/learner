@@ -118,8 +118,20 @@ display: block;
 }
 .tech2{
     position: absolute;
-    display:none;
+    display: none;
 }
 .tech1:hover + .tech2{
+    display: block;
+}
+.aaa
+{
+    font-size: 30px;
+}
+.listclients{
+    position: absolute;
+    display: none;
+}
+
+.aaa:hover + .listclients{
     display: block;
 }
