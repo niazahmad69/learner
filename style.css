@@ -1,0 +1,125 @@
+.alpha{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.al{
+    font-size: 30px;
+
+}
+.lead{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.ser{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 66%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+.toyo{
+    margin-top: 137px;
+
+}
+.le{
+    font-size: 32px;
+    color:  #403b3b;
+    padding: 66px;
+
+}
+.pic{
+    height: 127%;
+    width: 36%;
+
+}
+.main2{
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-direction: row;
+    margin-top: auto;
+    width: 89%;
+    height: 71%;
+}
+.market {
+    color: gray;
+    font-size: 34px;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*flex-direction: column;*/
+    font-family: 'Anton', sans-serif;
+    margin-top: -115px;
+
+
+}
+.toyota{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100%;
+
+}
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.sed{
+    color: gray;
+
+}
+.graphic{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.best{
+    font-size: 22px;
+    color: gray;
+    margin-top: -11px;
+}
+.mar{
+    padding: 62px;
+
+
+}
+.who{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: #554f4f;
+}
+.navbar li{
+    /*list-style: none;*/
+
+
+}
+.servicedisplay{
+    position: absolute;
+    display: none;
+}
+.servicedisplayparent:hover + .servicedisplay{
+
+display: block;
+}
+.tech2{
+    position: absolute;
+    display:none;
+}
+.tech1:hover + .tech2{
+    display: block;
+}
